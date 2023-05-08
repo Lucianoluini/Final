@@ -16,7 +16,54 @@
 				<img src="./assets/images/Logo.png" alt="Estudio">
 			</a>
 		</div>
-		<nav>
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/mission.html">Misión y visión</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Biblioteca </a>
+                                <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="./pages/library.html">Biblioteca</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="./pages/library.html">Jurisprudencia</a></li>
+                                <li><a class="dropdown-item" href="./pages/library.html">Dictámenes</a></li>
+                                <li><a class="dropdown-item" href="./pages/library.html">Doctrina</a></li>
+                                <li><a class="dropdown-item" href="./pages/library.html">Links de interés</a></li>
+                                </ul>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Nuestro Equipo </a>
+                                <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="./pages/team.html">Nuestro equipo</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="./pages/johndoe.html">John Doe</a></li>
+                                <li><a class="dropdown-item" href="./pages/janedoe.html">Jane Doe</a></li>
+                                <li><a class="dropdown-item" href="./pages/johnsmith.html">John Smith</a></li>
+                                </ul>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/contact.html">Contacto</a>
+                        </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+                </div>
+            </div>
+        </nav>
+
+
+
+
+
+
+		<!-- <nav>
 			<ul>
 				<li><a href="./index.html">Inicio</a></li>
 				<li><a href="./pages/mission.html">Misión y Visión</a></li>
@@ -24,17 +71,17 @@
 				<li><a href="./pages/team.html">Nuestro equipo</a></li>
 				<li><a href="./pages/contact.html">Contacto</a></li>
 			</ul>
-		</nav>
+		</nav> -->
     </header>
 <main>
-    <div class="container-fluid text-justified">
+    <div class="container-fluid">
         <div class="row">
             <div class="col">
                 <img src="./assets/images/edificio.jpg" alt="Estudio">
         </div>
-        <div class="col">
-            <h1>Bienvenido al Estudio Jurídico Doe & Asociados: tu aliado legal en Argentina.</h1>
-            <p>
+        <div class="col-sm-12 col-md-6">
+            <h1 class="text-center">Bienvenido al Estudio Jurídico Doe & Asociados: tu aliado legal en Argentina.</h1>
+            <p class="text-justified">
                 Somos una firma líder en servicios jurídicos y comerciales, comprometida en brindar soluciones legales de excelencia a nuestros clientes. Con un equipo de abogados altamente capacitados y una sólida experiencia en el campo del derecho, estamos listos para enfrentar los desafíos más complejos.
             </p>
             <p>
@@ -52,18 +99,12 @@
         </div>
     </div>
     
-    <!-- div class="image">
-        <img src="./assets/images/edificio.jpg" alt="Estudio">
-        <div class="text">
-            <h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pellentesque sagittis felis, posuere varius neque. Donec cursus mollis massa, tempus vulputate elit imperdiet id. Integer et tincidunt nulla, vitae rhoncus velit. Aenean hendrerit sem urna, quis commodo lacus efficitur sit amet. Sed elit felis, luctus ut tellus quis, volutpat lacinia nisi. Praesent in neque at nulla congue porta. Etiam viverra, ex ut varius imperdiet, odio tellus tristique mauris, eget vehicula ex nibh non justo. Morbi luctus sagittis metus. Ut congue et dui eget venenatis. Curabitur lacinia iaculis pharetra.</p>
-                Etiam a ante nibh. Duis ut mi gravida, congue nisl ut, malesuada purus. Nulla facilisi. Nullam convallis ac dolor eget iaculis. Phasellus quis nunc commodo, vulputate lorem nec, sollicitudin elit. Phasellus congue diam sed felis rutrum, in molestie est sodales. Maecenas ornare a nisl ac rhoncus. In tempor congue odio, eget semper mi lacinia ac.
-            </h1>
-            
-    </div> -->
 </main>
-<footer>
-    <p>Estudio Jurídico 2023 © Av. del Libertador 1000, Piso 3º - C1001ABW - Ciudad Autónoma de Buenos Aires - Argentina - Tel.: 54-11 5555-3243</p>
+<footer class="sticky-bottom">
+    <div class="container text-right">
+        <small class="text-right">Estudio Jurídico 2023 © Av. del Libertador 1000, Piso 3º - C1001ABW - Ciudad Autónoma de Buenos Aires - Argentina - Tel.: 54-11 5555-3243</small>
+        
+    </div>
 </footer>
 </body>
 </html>
