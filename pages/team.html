@@ -18,37 +18,40 @@
 				<img src="../assets/images/Logo.png" alt="Estudio">
 			</a>
 		</div>
-		<nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./pages/mission.html">Misión y visión</a>
+                            <a class="nav-link" href="./mission.html">Misión y visión</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Biblioteca </a>
                                 <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="./pages/library.html">Biblioteca</a></li>
+                                <li><a class="dropdown-item" href="./library.html">Biblioteca</a></li>
                                 <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="./pages/library.html">Jurisprudencia</a></li>
-                                <li><a class="dropdown-item" href="./pages/library.html">Dictámenes</a></li>
-                                <li><a class="dropdown-item" href="./pages/library.html">Doctrina</a></li>
-                                <li><a class="dropdown-item" href="./pages/library.html">Links de interés</a></li>
+                                <li><a class="dropdown-item" href="./library.html">Jurisprudencia</a></li>
+                                <li><a class="dropdown-item" href="./library.html">Dictámenes</a></li>
+                                <li><a class="dropdown-item" href="./library.html">Doctrina</a></li>
+                                <li><a class="dropdown-item" href="./library.html">Links de interés</a></li>
                                 </ul>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Nuestro Equipo </a>
                                 <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="./pages/team.html">Nuestro equipo</a></li>
+                                <li><a class="dropdown-item" href="./team.html">Nuestro equipo</a></li>
                                 <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="./pages/johndoe.html">John Doe</a></li>
-                                <li><a class="dropdown-item" href="./pages/janedoe.html">Jane Doe</a></li>
-                                <li><a class="dropdown-item" href="./pages/johnsmith.html">John Smith</a></li>
+                                <li><a class="dropdown-item" href="./johndoe.html">John Doe</a></li>
+                                <li><a class="dropdown-item" href="./janedoe.html">Jane Doe</a></li>
+                                <li><a class="dropdown-item" href="./johnsmith.html">John Smith</a></li>
                                 </ul>
                         <li class="nav-item">
-                            <a class="nav-link" href="./pages/contact.html">Contacto</a>
+                            <a class="nav-link" href="./contact.html">Contacto</a>
                         </li>
                 </ul>
                 <form class="d-flex" role="search">
@@ -61,21 +64,32 @@
     </header>
 
     <main>
-        <div class="law">
-            <a href="./johndoe.html">
-                <img src="../assets/images/JohnDoe.png" alt="John Doe">
-            </a>
-            <a href="./janedoe.html">
-                <img src="../assets/images/JaneDoe.png" alt="Jane Doe">
-            </a>
-            <a href="./johnsmith.html">
-                <img src="../assets/images/JohnSmith.png" alt="John Smith">
-            </a>
+        <div class="container">
+            <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <a href="./johndoe.html">
+                        <img src="../assets/images/JohnDoe.png" alt="John Doe">
+                    </a>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <a href="./janedoe.html">
+                    <img src="../assets/images/JaneDoe.png" alt="Jane Doe">
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <a href="./johnsmith.html">
+                    <img src="../assets/images/JohnSmith.png" alt="John Smith">
+                </a>
+            </div>
+            </div>
         </div>
     </main>
 
-    <footer>
-        <p>Estudio Jurídico 2023 © Av. del Libertador 1000, Piso 3º - C1001ABW - Ciudad Autónoma de Buenos Aires - Argentina - Tel.: 54-11 5555-3243</p>
+    <footer class="fixed-bottom">
+        <div class="container text-right">
+            <small class="text-right">Estudio Jurídico 2023 © Av. del Libertador 1000, Piso 3º - C1001ABW - Ciudad Autónoma de Buenos Aires - Argentina - Tel.: 54-11 5555-3243</small>
+            
+        </div>
     </footer>    
 </body>
 </html>
