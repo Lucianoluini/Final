@@ -175,20 +175,3 @@ footer {
 	position: relative;
 	bottom: 0px;
 }
-@media (max-width: 767px) {
-    .col-sm-12 {
-		flex-basis: 100%;
-    }
-}
-
-@media (max-width: 575px) {
-    .col-md-6 {
-		flex-basis: 50%;
-    }
-}
-
-@media (max-width: 996px) {
-	.col-lg-4 ¨{
-		flex-basis: 33,33%;
-	}
-}
