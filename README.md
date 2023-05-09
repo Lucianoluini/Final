@@ -8,5 +8,6 @@ En el CSS personalizado se dejaron parámetros de estilo para evitar el uso indi
 
 Falta completa la "Biblioteca" y cada uno de los tres miembros de "Nuestro equipo".
 Si bien se intentó mantener un estilo sobrio de escala de grises y solo en color el logo del estudio jurídico, se pretende darle algun color elegante.
+Se dejó para próxima entrega la aplicación de botones de Whatsapp y redes sociales.
 
 **Luciano Luini**
