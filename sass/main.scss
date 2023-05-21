@@ -11,7 +11,7 @@
 @import './components/navbar';
 @import './views/formcontact';
 @import './views/contact';
-
+@import './components/footer';
 
 * {
 	margin: 0;
@@ -20,19 +20,19 @@
 	text-align: center;
 }
 
-.main {
+/* .main {
 	margin: 50px auto;
 	max-width: 1200px;
-}
-.image {
+} */
+/* .image {
 	position: relative;
-}
+} */
 .espacio {
 	display: flex;
 	justify-content: center;
 	font-family: "parrafos";
 }
-.text {
+/* .text {
 	position: absolute;
 	top: 50%;
 	right: 0;
@@ -43,7 +43,7 @@
 	background-color: rgba(0, 0, 0, 0.1);
 	width: 50%;
 	font-family: "parrafos";
-}
+} */
 .texto {
 	text-align: justify;
 	color: $color3;
@@ -56,23 +56,16 @@
 	display: inline-block;
 	text-align: center;
 }
-.titulocontacto {
-	padding: 20px;
-	font-family: "parrafos";
-	text-align: center;
-	font-size: 30px;
-	font-weight: bold;
-	margin-bottom: 10px;
-}
 
 
-.law {
+
+/* .law {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	gap: 20px;
 	height: calc(100vh - 200px);
-}
+} */
 .jebusDance {
 	display: flex;
 	justify-content: center;
@@ -81,12 +74,4 @@ p {
 	margin-bottom: 30px;
 }
 
-footer {
-	background-color: $color1;
-	padding: 10px;
-	text-align: right;
-	right: 0;
-	font-size: 14px;
-	position: relative;
-	bottom: 0px;
-}
+
