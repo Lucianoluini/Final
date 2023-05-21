@@ -121,7 +121,7 @@ nav ul li a:hover {
 .contact-form {
 	/* background-color: #858488; */
 	width: 550px;
-	background-color: rgba(22, 22, 22, 0.096);
+	background-color: rgba(20, 22, 22, 0.096);
 	padding: 20px;
 	margin: 40px auto;
 	display: flex;
@@ -240,15 +240,15 @@ p {
 	button {
 		cursor: pointer;
 		font-weight: 500;
-		background-color: rgb(127, 255, 195);
+		background-color: rgb(160, 160, 160);
 	}
 
 	button:hover {
-		background-color: rgb(69, 240, 183);
+		background-color: rgb(100, 100, 100);
 	}
 
 	button:active {
-		background-color: rgb(149, 241, 210);
+		background-color: rgb(200, 200, 200);
 	}
 
 footer {

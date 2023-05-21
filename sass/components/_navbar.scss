@@ -1,0 +1,35 @@
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 8px;
+	margin-bottom: 50px;
+	background-color: $color1;
+}
+.logo {
+	img {
+		height: 95px;
+		width: 200px;
+	}
+}
+nav {
+	ul {
+		display: flex;
+		list-style: none;
+		li {
+			margin: 0 75px;
+			a {
+				text-decoration: none;
+				color: $color2;
+				padding: 10px;
+				border-radius: 5px;
+				transition: box-shadow 0.3s ease;
+				font-family: "menus";
+				font-weight: bold;
+				&:hover {
+					box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+				}
+			}
+		}
+	}
+}
