@@ -96,8 +96,8 @@ nav ul li a:hover {
 }
 
 .titulocontacto {
-	background-color: #858488;
-	border-radius: 5px;
+	/* background-color: #858488; */
+	/* border-radius: 5px; */
 	padding: 20px;
 	font-family: "parrafos";
 	text-align: center;
@@ -119,10 +119,17 @@ nav ul li a:hover {
 }
 
 .contact-form {
-	background-color: #858488;
-	border-radius: 5px;
-	padding: 20px;
+	/* background-color: #858488; */
 	width: 550px;
+	background-color: rgba(22, 22, 22, 0.096);
+	padding: 20px;
+	margin: 40px auto;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	font-family: "parrafos";
+	border-radius: 10px;
+	color: black;
 }
 
 label {
@@ -230,6 +237,19 @@ p {
     align-items: center;
     }
 
+	button {
+		cursor: pointer;
+		font-weight: 500;
+		background-color: rgb(127, 255, 195);
+	}
+
+	button:hover {
+		background-color: rgb(69, 240, 183);
+	}
+
+	button:active {
+		background-color: rgb(149, 241, 210);
+	}
 
 footer {
 	background-color: #f2f2f2;
