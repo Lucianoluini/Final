@@ -6,6 +6,29 @@
   font-family: "parrafos";
   src: url(../ttf/ubuntu/Ubuntu-R.ttf);
 }
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f8f8f8;
+  padding: 20px;
+  text-align: right;
+}
+footer small {
+  display: inline-block;
+  vertical-align: middle;
+}
+footer .social-media {
+  display: inline-block;
+  vertical-align: middle;
+}
+footer .social-media a {
+  margin-left: 10px;
+  color: #333;
+  font-size: 18px;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -38,53 +61,6 @@ nav ul li a {
 }
 nav ul li a:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-}
-
-.titulocontacto {
-  padding: 20px;
-  font-family: "parrafos";
-  text-align: center;
-  font-size: 30px;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
-.contact-form {
-  width: 550px;
-  background-color: rgba(22, 22, 22, 0.096);
-  padding: 20px;
-  margin: 40px auto;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  font-family: "parrafos";
-  border-radius: 10px;
-  color: #000000;
-}
-
-label {
-  display: block;
-  margin-bottom: 15px;
-  font-weight: bold;
-}
-
-input {
-  width: 100%;
-  padding: 10px;
-  border-radius: 5px;
-  border: none;
-  margin-bottom: 10px;
-  font-size: 16px;
-}
-
-textarea {
-  width: 100%;
-  height: 150px;
-  padding: 10px;
-  border-radius: 5px;
-  border: none;
-  margin-bottom: 10px;
-  font-size: 16px;
 }
 
 .cards {
@@ -154,69 +130,51 @@ button:active {
   background-color: rgb(200, 200, 200);
 }
 
-/* footer {
-	background-color: $color1;
-	padding: 10px 10px;
-	text-align: right;
-	right: 0;
-	font-size: 14px;
-	position: relative;
-	bottom: 0px;
-} */
-.footer {
-  padding-block: 50px;
-  padding-bottom: 25px;
-  background-color: #151515;
-  color: #666873;
+.titulocontacto {
+  padding: 20px;
+  font-family: "parrafos";
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
-.footer__container {
-  max-width: 1160px;
-  margin: auto;
-  padding: 0 15px;
-}
-
-.footer__top {
-  display: grid;
-  grid-template-columns: repeat auto-fit, minmax 200px, 1fr;
-  row-gap: 20px;
-}
-
-.footer__title {
-  font-size: 18px;
-  color: #fff;
-  font-weight: 500;
-  margin-bottom: 20px;
-}
-
-.footer__list {
+.contact-form {
+  width: 550px;
+  background-color: rgba(22, 22, 22, 0.096);
+  padding: 20px;
+  margin: 40px auto;
   display: flex;
   flex-direction: column;
   gap: 20px;
+  font-family: "parrafos";
+  border-radius: 10px;
+  color: #000000;
 }
 
-.footer__list-link {
-  transition: color 0.25s;
-}
-.footer__list-link:hover {
-  color: #fff;
+label {
+  display: block;
+  margin-bottom: 15px;
+  font-weight: bold;
 }
 
-.footer__divider {
-  margin-block: 25px;
+input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
   border: none;
-  border-top: 1px solid rgba(252, 255, 255, 0.1);
+  margin-bottom: 10px;
+  font-size: 16px;
 }
 
-.footer__bottom {
-  display: flex;
-  justify-content: space-between;
-  gap: 20px;
-  flex-wrap: wrap;
-}
-
-.footer__list--bottom {
-  flex-direction: row;
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 10px;
+  font-size: 16px;
 }
 
 .container {
