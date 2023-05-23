@@ -12,66 +12,9 @@
 @import './views/formcontact';
 @import './views/contact';
 @import './components/footer';
+@import './views/library';
+@import './views/mission';
+@import './views/reset';
 
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	text-align: center;
-}
-
-/* .main {
-	margin: 50px auto;
-	max-width: 1200px;
-} */
-/* .image {
-	position: relative;
-} */
-.espacio {
-	display: flex;
-	justify-content: center;
-	font-family: "parrafos";
-}
-/* .text {
-	position: absolute;
-	top: 50%;
-	right: 0;
-	transform: translateY(-50%);
-	text-align: justify;
-	color: $color3;
-	padding: 20px;
-	background-color: rgba(0, 0, 0, 0.1);
-	width: 50%;
-	font-family: "parrafos";
-} */
-.texto {
-	text-align: justify;
-	color: $color3;
-	padding: 20px;
-	background-color: rgba(0, 0, 0, 0.1);
-	margin: 0 20px 20px 20px;
-	font-family: "parrafos";
-}
-.parrafo {
-	display: inline-block;
-	text-align: center;
-}
-
-
-
-/* .law {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	gap: 20px;
-	height: calc(100vh - 200px);
-} */
-.jebusDance {
-	display: flex;
-	justify-content: center;
-}
-p {
-	margin-bottom: 30px;
-}
 
 
