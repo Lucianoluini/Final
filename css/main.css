@@ -177,6 +177,11 @@ textarea {
   font-size: 16px;
 }
 
+.full-height {
+  height: 700px;
+  width: auto;
+}
+
 .container {
   width: auto;
   position: relative;
