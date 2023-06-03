@@ -12,5 +12,6 @@ Se dejó para próxima entrega la aplicación de botones de Whatsapp y redes soc
 
 # Pre Entrega 3 - Luciano Luini
 Se utilizó SASS y técnicas de SEO.
+Se corrigió la aparición del scroll en el formulario de contactos.
 
 **Luciano Luini**
