@@ -16,3 +16,18 @@
 	display: inline-block;
 	text-align: center;
 }
+
+.fs-video-container {
+	width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+
+.fs-video {
+	width: 100%;
+    height: auto;
+    position: relative;
+    top: -50%;
+    left: 0;
+    transform: translateY(-50%);
+}

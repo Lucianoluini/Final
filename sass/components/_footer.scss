@@ -1,11 +1,15 @@
 footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
+    background-color: #20005b;
+    color: #ffffff;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding-left: 70px;
+    padding-right: 70px;
     width: 100%;
-    background-color: #f8f8f8;
-    padding: 20px;
-    text-align: right;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    display: flex;
 
     small {
     display: inline-block;
@@ -13,8 +17,9 @@ footer {
 }
 
 .social-media {
-    display: inline-block;
+    display: flow-root;
     vertical-align: middle;
+    padding-bottom: 10px;
 
     a {
         margin-left: 10px;
@@ -24,3 +29,4 @@ footer {
     }
 }
 }
+

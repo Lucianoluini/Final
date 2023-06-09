@@ -2,3 +2,18 @@
     height: 700px;
     width: auto;
 }
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    color: rgb(255, 255, 242);
+    font-size: 1.2rem;
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.9);
+    
+}
+
+main {
+    display: flex;
+}

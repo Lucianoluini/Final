@@ -7,21 +7,26 @@
   src: url(../ttf/ubuntu/Ubuntu-R.ttf);
 }
 footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
+  background-color: #20005b;
+  color: #ffffff;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  padding-left: 70px;
+  padding-right: 70px;
   width: 100%;
-  background-color: #f8f8f8;
-  padding: 20px;
-  text-align: right;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  display: flex;
 }
 footer small {
   display: inline-block;
   vertical-align: middle;
 }
 footer .social-media {
-  display: inline-block;
+  display: flow-root;
   vertical-align: middle;
+  padding-bottom: 10px;
 }
 footer .social-media a {
   margin-left: 10px;
@@ -143,13 +148,28 @@ button:active {
   width: 550px;
   background-color: rgba(22, 22, 22, 0.096);
   padding: 20px;
-  margin: 40px auto;
+  margin: auto;
   display: flex;
   flex-direction: column;
   gap: auto;
   font-family: "parrafos";
   border-radius: 10px;
   color: #000000;
+}
+
+.map iframe,
+.contact-form {
+  width: 75vh;
+  height: 50vh;
+}
+
+main {
+  align-items: center;
+  display: flex;
+  margin: 15px;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
 }
 
 label {
@@ -180,6 +200,20 @@ textarea {
 .full-height {
   height: 700px;
   width: auto;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  color: rgb(255, 255, 242);
+  font-size: 1.2rem;
+  text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.9);
+}
+
+main {
+  display: flex;
 }
 
 .container {
@@ -278,6 +312,21 @@ textarea {
 .parrafo {
   display: inline-block;
   text-align: center;
+}
+
+.fs-video-container {
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+}
+
+.fs-video {
+  width: 100%;
+  height: auto;
+  position: relative;
+  top: -50%;
+  left: 0;
+  transform: translateY(-50%);
 }
 
 * {

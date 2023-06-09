@@ -53,36 +53,47 @@
                             <a class="nav-link" href="./contact.html">Contacto</a>
                         </li>
                 </ul>
-                <form class="d-flex" role="search">
+<!--                 <form class="d-flex" role="search">
                     <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
                     <button class="btn btn-outline-success" type="submit">Buscar</button>
-                </form>
+                </form> -->
                 </div>
             </div>
         </nav>
 
     </header>
     <main>
+        
         <h2 class="titulocontacto">Formulario de contacto</h2>
-            <div class="d-flex flex-column min-vh-50">
-                <div class="mx-auto text-center">
-                    <form class="contact-form" action="" method="post">
-                        <label for="name">Nombre y apellido:</label>
-                        <input type="text" placeholder="Ingrese nombre y apellido" id="name" name="name" required>
-                        <label for="email">Email:</label>
-                        <input type="email" placeholder="Ingrese email" id="email" name="email" required>
-                        <label for="Tel">Teléfono:</label>
-                        <input type="tel" placeholder="Ingrese su teléfono" id="tel" name="tel" required>
-                        <label for="message">Mensaje:</label>
-                        <textarea placeholder="Ingrese su mensaje" id="message" name="message" required></textarea>
-                        <button type="submit">Enviar <i class="fa-solid fa-paper-plane"></i> </button>
-                        <button type="reset">Limpiar formulario</button>
-                    </form>
-                </div>
+            <div class="row">
+            <div class="col-xxl-6 col-xl-12 d-flex align-items-center">
+            <div class="map mx-auto">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.686526272072!2d-58.388579582556154!3d-34.5867976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaa4fc2705ed%3A0x600b6a2896ac3c7b!2sAv.%20del%20Libertador%201000%2C%20C1112%20ABA%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1685832869299!5m2!1ses!2sar" width="100%" height="490" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
+            </div>
+            <div class="col-xxl-6 col-xl-12 d-flex align-items-center">
+            <!-- <div class="d-flex flex-column min-vh-50"> -->
+                <div class="mx-auto text-center">
+                <form class="contact-form mx-auto" action="" method="post">
+                    <label for="name">Nombre y apellido:</label>
+                    <input type="text" placeholder="Ingrese nombre y apellido" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" placeholder="Ingrese email" id="email" name="email" required>
+                    <label for="Tel">Teléfono:</label>
+                    <input type="tel" placeholder="Ingrese su teléfono" id="tel" name="tel" required>
+                    <label for="message">Mensaje:</label>
+                    <textarea placeholder="Ingrese su mensaje" id="message" name="message" required></textarea>
+                    <button type="submit">Enviar <i class="fa-solid fa-paper-plane"></i> </button>
+                    <button type="reset">Limpiar formulario</button>
+                </form>
+                </div>
+            <!-- </div> -->
+            </div>
+        </div>
+        </div>
     </main>
 
-    <footer class="fixed-bottom">
+    <footer>
         <div class="container d-flex justify-content-between align-items-center flex-sm-row flex-column">
             <small class="text-sm-right mb-2 mb-sm-0">Estudio Jurídico 2023 © Av. del Libertador 1000, Piso 3º - C1001ABW - Ciudad Autónoma de Buenos Aires - Argentina - Tel.: 54-11 5555-3243</small>
             <div class="social-media">
