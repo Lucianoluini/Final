@@ -8,5 +8,7 @@ En el CSS personalizado se dejaron parámetros de estilo para evitar el uso indi
 
 Se utilizó SASS y técnicas de SEO.
 
+[Estudio Jurídico Doe & Asociados](https://final-xi-six.vercel.app/)
+
 
 **Luciano Ariel Luini**
